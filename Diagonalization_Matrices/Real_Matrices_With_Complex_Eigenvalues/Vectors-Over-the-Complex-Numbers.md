@@ -30,11 +30,11 @@ For any $`\mathbf{z} \in \mathbb{C}^n`$, the **real** and **imaginary** parts ar
 
 * **Real Part:**
 
-$`\operatorname{Re}(\mathbf{z}) = \frac{1}{2}(\mathbf{z} + \overline{\mathbf{z}})`$
+$`\mathrm{Re}(\mathbf{z}) = \frac{1}{2}(\mathbf{z} + \overline{\mathbf{z}})`$
 
 * **Imaginary Part:**
 
-$`\operatorname{Im}(\mathbf{z}) = \frac{1}{2i}(\mathbf{z} - \overline{\mathbf{z}})`$
+$`\mathrm{Im}(\mathbf{z}) = \frac{1}{2i}(\mathbf{z} - \overline{\mathbf{z}})`$
 
 #### **Example:**
 
@@ -43,8 +43,8 @@ Let $`\mathbf{z} = \begin{bmatrix} 2 + i \\ -i \end{bmatrix}`$
 Then:
 
 * $`\overline{\mathbf{z}} = \begin{bmatrix} 2 - i \\ i \end{bmatrix}`$
-* $`\operatorname{Re}(\mathbf{z}) = \frac{1}{2} \begin{bmatrix} (2+i)+(2-i) \\ (-i)+i \end{bmatrix} = \begin{bmatrix} 2 \\ 0 \end{bmatrix}`$
-* $`\operatorname{Im}(\mathbf{z}) = \frac{1}{2i} \begin{bmatrix} (2+i)-(2-i) \\ (-i)-i \end{bmatrix} = \begin{bmatrix} 1 \\ -1 \end{bmatrix}`$
+* $`\mathrm{Re}(\mathbf{z}) = \frac{1}{2} \begin{bmatrix} (2+i)+(2-i) \\ (-i)+i \end{bmatrix} = \begin{bmatrix} 2 \\ 0 \end{bmatrix}`$
+* $`\mathrm{Im}(\mathbf{z}) = \frac{1}{2i} \begin{bmatrix} (2+i)-(2-i) \\ (-i)-i \end{bmatrix} = \begin{bmatrix} 1 \\ -1 \end{bmatrix}`$
 
 ---
 
@@ -57,8 +57,8 @@ $`\overline{c \mathbf{z}} = \overline{c} \cdot \overline{\mathbf{z}} \Rightarrow
 
 Once $`\overline{c}`$ is found, take:
 
-* $`\operatorname{Re}(c) = \operatorname{Re}(\overline{\overline{c}})`$
-* $`\operatorname{Im}(c) = \operatorname{Im}(\overline{\overline{c}})`$
+* $`\mathrm{Re}(c) = \mathrm{Re}(\overline{\overline{c}})`$
+* $`\mathrm{Im}(c) = \mathrm{Im}(\overline{\overline{c}})`$
 
 #### **Example:**
 
@@ -78,7 +78,7 @@ $`\overline{c}(1 - i) = 3 - i \Rightarrow \overline{c} = \frac{3 - i}{1 - i} = \
 
 So:
 
-$`c = \overline{(2 + i)} = 2 - i \Rightarrow \operatorname{Re}(c) = 2, \quad \operatorname{Im}(c) = -1`$
+$`c = \overline{(2 + i)} = 2 - i \Rightarrow \mathrm{Re}(c) = 2, \quad \mathrm{Im}(c) = -1`$
 
 ---
 
@@ -87,8 +87,8 @@ $`c = \overline{(2 + i)} = 2 - i \Rightarrow \operatorname{Re}(c) = 2, \quad \op
 | Concept                                         | Expression                                                                         |
 | ----------------------------------------------- | ---------------------------------------------------------------------------------- |
 | Complex conjugate of a vector                   | $`\overline{\mathbf{z}} = [\overline{z_1}, \dots, \overline{z_n}]^\top`$             |
-| Real part of vector                             | $`\operatorname{Re}(\mathbf{z}) = \frac{1}{2}(\mathbf{z} + \overline{\mathbf{z}})`$  |
-| Imaginary part of vector                        | $`\operatorname{Im}(\mathbf{z}) = \frac{1}{2i}(\mathbf{z} - \overline{\mathbf{z}})`$ |
+| Real part of vector                             | $`\mathrm{Re}(\mathbf{z}) = \frac{1}{2}(\mathbf{z} + \overline{\mathbf{z}})`$  |
+| Imaginary part of vector                        | $`\mathrm{Im}(\mathbf{z}) = \frac{1}{2i}(\mathbf{z} - \overline{\mathbf{z}})`$ |
 | Conjugate of a scalar times vector              | $`\overline{c \mathbf{z}} = \overline{c} \cdot \overline{\mathbf{z}}`$               |
 | Recover scalar components from vector conjugate | Use component-wise equations to solve for $`\overline{c}`$, then conjugate it        |
 
